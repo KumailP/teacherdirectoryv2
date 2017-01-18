@@ -32,6 +32,22 @@ body{
   background-color: #4d567b;
 }
 
+.teachers{
+  background-color: #d7d7d7;
+  color: #333a56;
+  text-transform: uppercase;
+  font-family: Trebuchet MS;
+  margin-top: 7.5px;
+  font-weight: bold;
+  margin-left: 10px;
+  transition: 0.2s;
+}
+
+.teachers:hover{
+  background-color: white;
+  transition: 0.2s;
+}
+
 .jumbotron{
    background: url('../Images/mainHeader2.png') center center;
    background-size: cover;
@@ -56,6 +72,83 @@ body{
   transition: 0.5s;
 }
 
+.alert-custom{
+  border-color: #4d567b;
+  background-color: white;
+  color: #333a56;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.innercarousel{
+  /*float: left;*/
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.innercarousel .panel-title{
+  font-size: 1em;
+}
+
+.panel-body img{
+  float: left;
+  /*margin: 0 auto;*/
+  max-width: 150px;
+}
+
+.carousel-control{
+  color: #333a56;
+  opacity: 1;
+}
+
+.carousel-control.right2 {
+    right: 0;
+    left: auto;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+
+.carousel-indicators{
+  display: none;
+}
+
+.centeringtext{
+  /*float: left;*/
+}
+
+.carousel{
+  margin: 0 auto;
+  max-width: 650px;
+}
+
+.panel-custom .panel-heading{
+  background-color: #333a56;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#about, #contact{
+  font-size: 2em;
+}
+
+.panel-custom{
+  border-color: #333a56;
+  text-align: center;
+  line-height: 1.9;
+}
+
+.about .customhead{
+  background-color:#4d567b;
+  color: white;
+}
+
+.about{
+  background-color: #333a56;
+  color: white;
+}
+
 .features{
   font-weight: bold;
   color: #333a56;
@@ -66,6 +159,7 @@ body{
   color: #555;
   font-size: 0.9em;
   font-style: oblique;
+  margin-bottom: 30px;
 }
 
 .caption h3{
@@ -80,6 +174,7 @@ body{
 .caption p{
   color: #555;
   font-size: 1.1em;
+  margin-bottom: 0px;
 }
 
 .iconthumb{
@@ -95,6 +190,16 @@ body{
   transition: 0.5s;
 }
 
+.footer{
+  margin-top: 30px;
+  background-color: #333a56;
+  color: white;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+
+
 hr.seperator{
   border: 0;
   height:1px;
@@ -103,4 +208,5 @@ hr.seperator{
   background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
   background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
   background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  margin: 50px 0px;
 }

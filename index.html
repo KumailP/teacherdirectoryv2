@@ -30,10 +30,10 @@
         </div>
         <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Teachers</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Blog</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><button type="buton" href="#" class="btn btn-default teachers">Teachers &raquo;</button></li>
         </ul>
       </div>
     </nav>
@@ -46,6 +46,12 @@
     </div>
 
     <div class="container">
+      <div class="alert alert-custom alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <strong><!></strong> Website is under construction.
+</div>
+
+
       <h2 class="features text-center text-uppercase">Features</h2>
       <p class="featurestxt text-center text-lowercase text-muted">What makes TeacherDirectory unique</p>
 
@@ -77,38 +83,164 @@
       </div>
     </a>
       <div class="clearfix"></div>
-      <br>
+      <br id="blog">
       <hr class="seperator">
 
-    </div>
 
+      <h2  class="features text-center text-uppercase">Blog</h2>
+      <p class="featurestxt text-center text-lowercase text-muted">Stay updated on latest education trends</p>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
 
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner text-center" role="listbox">
+          <div class="item active">
+            <div class="innercarousel">
+              <div class="row centeringtext">
+            <div class="col-md-6">
+              <div class="panel panel-custom blog">
+                <div class="panel-heading customhead">
+                  <h3 class="panel-title">Life As A Student Of DHA Suffa University</h3>
+                </div>
+                <div class="panel-body">
+                  <img src="Images/temp.png" alt="Chania">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="panel panel-custom blog">
+                <div class="panel-heading customhead">
+                  <h3 class="panel-title">Creating A Website For 1st Semester Project?</h3>
+                </div>
+                <div class="panel-body">
+                  <img src="Images/temp.png" alt="Chania">
+                </div>
+              </div>
+            </div>
+          </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="innercarousel">
+              <div class="row centeringtext">
+            <div class="col-md-6">
+              <div class="panel panel-custom blog">
+                <div class="panel-heading customhead">
+                  <h3 class="panel-title">Life As A Student Of DHA Suffa Universit</h3>
+                </div>
+                <div class="panel-body">
+                  <img src="Images/temp.png" alt="Chania">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="panel panel-custom blog">
+                <div class="panel-heading customhead">
+                  <h3 class="panel-title">Creating A Website For 1st Semester Project?</h3>
+                </div>
+                <div class="panel-body">
+                  <img src="Images/temp.png" alt="Chania">
+                </div>
+              </div>
+            </div>
+          </div>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right2 carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
 
-      <hr>
 
-      <footer>
-        <p>&copy; 2016 Company, Inc.</p>
-      </footer>
-    </div> <!-- /container -->
+        <div class="clearfix"></div>
+        <br>
+        <hr class="seperator">
+
+
+      <div class="col-md-4">
+        <a href="#" class="thumbnail">
+              <img src="Images/temp.png" alt="...">
+            </a>
+      </div>
+      <div class="col-md-8">
+        <div class="panel panel-custom">
+          <div class="panel-heading">
+            <h3 class="panel-title" id="about">About Us</h3>
+          </div>
+          <div class="panel-body">
+          TeacherDirectory is a Pakistani portal, where you can find most a basic profile overview of most University teachers all over Pakistan. Information including courses taught, a basic description, profile pictures, everything is available on this website.
+
+This was originally the first semester project of CS101 at DHA Suffa University, developed by Kumail & Shayan.
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+      <hr class="seperator">
+
+      <div class="panel panel-custom">
+        <div class="panel-heading">
+          <h3 class="panel-title" id="contact">Contact</h3>
+        </div>
+        <div class="panel-body">
+          <div class="row">
+
+            <div class="col-md-2"></div>
+            <div class="col-md-3">
+              <div class="panel panel-custom about">
+                <div class="panel-heading customhead">
+                  <h3 class="panel-title">Kumail</h3>
+                </div>
+                <div class="panel-body">
+                  kumailpirzada@gmail.com<br>
+                  cs161048@dsu.edu.pk
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2"></div>
+
+              <div class="col-md-3">
+                <div class="panel panel-custom about">
+                  <div class="panel-heading customhead">
+                    <h3 class="panel-title">Shayan</h3>
+                  </div>
+                  <div class="panel-body">
+                    mustafa.shayan9@gmail.com<br>
+                    cs161041@dsu.edu.pk
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2"></div>
+          </div>
+        </div>
+      </div>
+    </div> <!-- container -->
+
+
+
+
+
+      </div> <!-- /container -->
+
+      <footer class="footer">
+      <div class="container">
+        <span>&copy; 2017 teacherdirectory</span>
+      </div>
+    </footer>
 
 
     <!-- Bootstrap core JavaScript
